@@ -55,3 +55,7 @@ def mod(num1, num2):
 def add_mult(num1, num2, num3):
     mult_add = (num1 + num2) * num3
     return mult_add
+
+def add_cubes(num1, num2):
+    cube_add = num1 ** 3 + num2 ** 3 
+    return cube_add 
