@@ -51,3 +51,7 @@ def mod(num1, num2):
 
     except ZeroDivisionError:
         return "Divide by zero not allowed"
+
+def add_mult(num1, num2, num3):
+    mult_add = (num1 + num2) * num3
+    return mult_add
