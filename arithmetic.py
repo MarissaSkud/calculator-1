@@ -22,9 +22,9 @@ def divide(num1, num2):
 
         divided = num1 / num2 
         return divided 
-        
+
     except ZeroDivisionError:
-        return "Divide by zero not allowed "
+        return "Divide by zero not allowed"
 
 def square(num1):
     """Return the square of the input."""
@@ -45,5 +45,9 @@ def power(num1, num2):
 
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
-    remainder = num1 % num2
-    return remainder
+    try:
+        remainder = num1 % num2
+        return remainder
+
+    except ZeroDivisionError:
+        return "Divide by zero not allowed"
